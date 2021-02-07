@@ -1,6 +1,6 @@
 # mdadm-notes
 
-## ‰Šúİ’è
+## åˆæœŸè¨­å®š
 
 ```
 sudo mdadm --detail --scan > /etc/mdstat.conf
@@ -16,9 +16,9 @@ ARRAY /dev/md/0 metadata=1.2 name=raspberrypi:0 UUID=f55fd29a:81e96f88:d5667885:
 mdadm --add /dev/md0 /dev/sdb
 ```
 
-## ó‘ÔŠm”F
+## çŠ¶æ…‹ç¢ºèª
 
-### mdstat Šm”F
+### mdstat ç¢ºèª
 ```
 cat /proc/mdstat
 ```
