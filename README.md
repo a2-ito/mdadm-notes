@@ -127,4 +127,15 @@ mdadm /dev/md0 -r /dev/sdc1
 mdadm -D /xxx
 ```
 
+## Recovery
+
+### stop raid
+```
+sudo mdadm --misc --stop /dev/md0
+```
+
+### start raid
+```
+sudo mdadm --assemble --scan /dev/md0
+```
 
